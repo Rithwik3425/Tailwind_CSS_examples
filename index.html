@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning TailWind CSS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Microsoft - Cloud, Computers, Apps &amp; Gaming</title>
+  </head>
+  <body>
+    <div class="container m-auto">
+      <div class="navbar flex justify-between items-center p-4">
+        <div class="flex justify-center items-center md:order-2">
+          <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+          </div>
+          <div class="search md:hidden">
+            <img src="./assets/searchicon.png" alt="" class="w-6" />
+          </div>
+        </div>
+        <div class="logo text-center md:order-1 flex">
+          <div>
+            <img class="p-4 w-40" src="./assets/microsoftlogo.png" alt="" />
+          </div>
+          <div
+            class="features md:flex w-fit md:w-auto md:mx-4 md:space-x-2 absolute md:static bg-gray-200 md:bg-white inset-0 -translate-x-96 md:translate-x-0 my-6"
+          >
+            <div class="fitem">Microsoft 365</div>
+            <div class="fitem">Office</div>
+            <div class="fitem">Windows</div>
+            <div class="fitem">Surface</div>
+            <div class="fitem">Xbox</div>
+            <div class="fitem">Support</div>
+          </div>
+        </div>
+        <div class="cart text-center md:order-3 flex">
+          <div class="search hidden md:block">
+            <img src="./assets/searchicon.png" alt="" class="w-10 mr-4" />
+          </div>
+          <div class="flex">
+            <div>
+              <img class="w-10 mr-4" src="./assets/carticon.png" alt="" />
+            </div>
+            <div>
+              <img class="w-10 mr-4" src="./assets/accounticon.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider flex flex-col-reverse md:flex-row bg-[#f2f2f2] mx-2">
+        <div
+          class="left flex flex-col justify-center items-center md:items-baseline py-12"
+        >
+          <h1 class="text-2xl font-medium md:text-4xl mx-5">
+            Surface Laptop 4
+          </h1>
+          <p class="w-3/4 text-center md:text-left">
+            Sophisticated style and multitasking speed powered by 12th Gen
+            Intel® Core, with Windows 11.
+          </p>
+          <button
+            class="text-white bg-black px-4 py-2 rounded-lg my-6 font-bold mx-5"
+          >
+            Shop now >
+          </button>
+        </div>
+        <div class="right">
+          <img class="md:w-[64rem]" src="./assets/surfacepro2.png" alt="" />
+        </div>
+      </div>
+
+      <div class="promo space-y-6 flex flex-col lg:flex-row">
+        <div class="item flex items-center mx-4 mt-6 space-x-2">
+          <img class="w-6" src="./assets/ic1.png" alt="" />
+          <span class="font-medium">Choose your Microsoft 365</span>
+        </div>
+        <div class="item flex items-center mx-4 space-x-2">
+          <img class="w-10" src="./assets/ic2.png" alt="" />
+          <span class="font-medium">Explore Surface devices </span>
+        </div>
+        <div class="item flex items-center mx-4 space-x-2">
+          <img class="w-10" src="./assets/ic3.png" alt="" />
+          <span class="font-medium">Buy x box games</span>
+        </div>
+        <div class="item flex items-center mx-4 space-x-2">
+          <img class="w-6" src="./assets/ic1.png" alt="" />
+          <span class="font-medium">Get Windows 11</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
